@@ -8,17 +8,14 @@ The analysis includes data ingestion from a SQLite database, thorough data clean
 ## 📂 Project Structure
 ````plaintext
 vendor_performance/
-├── notebooks/
-│   ├── Cleaning.ipynb
-│   ├── Exploratory Data Analysis.ipynb
-│   └── Vendor Performance Analysis.ipynb
-├── scripts/
-│   ├── ingestion_db.py
-│   └── get_vendor_summary.py
-├── data/
-│   └── vendor_sales_summary.csv
-├── reports/
-│   └── Vendor_Performance_Report.pdf
+├── Cleaning.ipynb
+├── Explanatory.ipynb
+├── Vendor Performance Analysis.ipynb
+├── get_vendor_summary.py
+├── ingestion_db.py
+├── logs/
+│   ├── get_vendor_summary.log
+│   └── ingestion_db.log
 ├── README.md
 └── .gitignore
 ````
@@ -57,11 +54,6 @@ pip install pandas numpy matplotlib seaborn scipy
 Cleaning.ipynb
 Exploratory Data Analysis.ipynb
 Vendor Performance Analysis.ipynb
-```
-(Optional) Run the Python scripts:
-```bash
-python scripts/ingestion_db.py
-python scripts/get_vendor_summary.py
 ```
 
 📊 Key Insights
