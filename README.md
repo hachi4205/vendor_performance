@@ -25,39 +25,49 @@ vendor_performance/
 
 🛠️ Technologies Used
 
-Programming Language: Python 3
-Data Analysis: Pandas, NumPy, SciPy
-Visualization: Matplotlib, Seaborn
-Environment: Jupyter Notebook
-Database: SQLite
+- Programming Language: Python 3
+- Data Analysis: Pandas, NumPy, SciPy
+- Visualization: Matplotlib, Seaborn
+- Environment: Jupyter Notebook
+- Database: SQLite
 
 ✨ Key Features
 
-Automated data ingestion and preprocessing from SQLite database
-Comprehensive data cleaning and handling of negative/outlier values
-In-depth Exploratory Data Analysis (EDA)
-Correlation analysis and outlier detection
-Evaluation of bulk pricing strategy effectiveness
-Analysis of slow-moving inventory and its impact on holding costs
-Actionable business insights and recommendations for vendor management
+- Automated data ingestion and preprocessing from SQLite database
+- Comprehensive data cleaning and handling of negative/outlier values
+- In-depth Exploratory Data Analysis (EDA)
+- Correlation analysis and outlier detection
+- Evaluation of bulk pricing strategy effectiveness
+- Analysis of slow-moving inventory and its impact on holding costs
+- Actionable business insights and recommendations for vendor management
 
 🚀 How to Run the Project
 
-Clone the repository: Bashgit clone https://github.com/hachi4205/vendor_performance.git
+- Clone the repository: 
+```bash
+git clone https://github.com/hachi4205/vendor_performance.git
 cd vendor_performance
-Install the required packages:Bashpip install pandas numpy matplotlib seaborn scipy
-Open Jupyter Notebook and run the notebooks in the following order:
+```
+- Install the required packages:
+```bash
+pip install pandas numpy matplotlib seaborn scipy
+```
+- Open Jupyter Notebook and run the notebooks in the following order:
+```bash
 Cleaning.ipynb
 Exploratory Data Analysis.ipynb
 Vendor Performance Analysis.ipynb
-
-Run the Python scripts:Bashpython scripts/ingestion_db.py
+```
+(Optional) Run the Python scripts:
+```bash
+python scripts/ingestion_db.py
 python scripts/get_vendor_summary.py
+```
 
 📊 Key Insights
 
-Detected negative values and outliers in important financial metrics
-Analyzed relationships between purchase price, sales volume, and profitability
-Evaluated the benefits and impact of bulk purchasing strategy
-Identified the risks and costs associated with slow-moving inventory
-Provided recommendations for promotional activities and pricing adjustments on selected brands/vendors
+- Detected negative values and outliers in important financial metrics
+- Analyzed relationships between purchase price, sales volume, and profitability
+- Evaluated the benefits and impact of bulk purchasing strategy
+- Identified the risks and costs associated with slow-moving inventory
+- Provided recommendations for promotional activities and pricing adjustments on selected brands/vendors
