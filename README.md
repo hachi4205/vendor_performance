@@ -6,7 +6,7 @@ This project focuses on analyzing vendor performance using sales transaction dat
 The analysis includes data ingestion from a SQLite database, thorough data cleaning, exploratory data analysis (EDA), statistical insights, correlation analysis, and business recommendations.
 
 ## 📂 Project Structure
-```plaintext
+````plaintext
 vendor_performance/
 ├── notebooks/
 │   ├── Cleaning.ipynb
@@ -21,9 +21,9 @@ vendor_performance/
 │   └── Vendor_Performance_Report.pdf
 ├── README.md
 └── .gitignore
+````
 
 🛠️ Technologies Used
-
 Programming Language: Python 3
 Data Analysis: Pandas, NumPy, SciPy
 Visualization: Matplotlib, Seaborn
@@ -31,7 +31,6 @@ Environment: Jupyter Notebook
 Database: SQLite
 
 ✨ Key Features
-
 Automated data ingestion and preprocessing from SQLite database
 Comprehensive data cleaning and handling of negative/outlier values
 In-depth Exploratory Data Analysis (EDA)
@@ -41,8 +40,7 @@ Analysis of slow-moving inventory and its impact on holding costs
 Actionable business insights and recommendations for vendor management
 
 🚀 How to Run the Project
-
-Clone the repository:Bashgit clone https://github.com/hachi4205/vendor_performance.git
+Clone the repository: Bashgit clone https://github.com/hachi4205/vendor_performance.git
 cd vendor_performance
 Install the required packages:Bashpip install pandas numpy matplotlib seaborn scipy
 Open Jupyter Notebook and run the notebooks in the following order:
@@ -50,11 +48,10 @@ Cleaning.ipynb
 Exploratory Data Analysis.ipynb
 Vendor Performance Analysis.ipynb
 
-(Optional) Run the Python scripts:Bashpython scripts/ingestion_db.py
+Run the Python scripts:Bashpython scripts/ingestion_db.py
 python scripts/get_vendor_summary.py
 
 📊 Key Insights
-
 Detected negative values and outliers in important financial metrics
 Analyzed relationships between purchase price, sales volume, and profitability
 Evaluated the benefits and impact of bulk purchasing strategy
