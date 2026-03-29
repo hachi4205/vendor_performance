@@ -21,6 +21,7 @@ vendor_performance/
 │   └── Vendor_Performance_Report.pdf
 ├── README.md
 └── .gitignore
+
 🛠️ Technologies Used
 
 Programming Language: Python 3
